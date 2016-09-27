@@ -1,8 +1,8 @@
 # Release name
 PRODUCT_RELEASE_NAME := mt6592
 
-# Inherit some common aicp stuff.
-$(call inherit-product, vendor/aicp/configs/common.mk)
+# Inherit some common aokp stuff.
+$(call inherit-product, vendor/aokp/configs/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/mediatek/mt6592/device_mt6592.mk)
@@ -22,7 +22,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mt6592
-PRODUCT_NAME := aicp_mt6592
+PRODUCT_NAME := aokp_mt6592
 PRODUCT_BRAND := mediatek
 PRODUCT_MODEL := mediatek mt6592
 PRODUCT_MANUFACTURER := mediatek
